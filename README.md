@@ -1,8 +1,9 @@
 # visual_feedback_for_excercise
 Project for  uploading/recording your own execise execution and getting a comparison of form with a example of best practice execution.
 
-The goal is an application for comparing movements executions of a movement or technique in a given sport or discipline (e.g. gym exercises or Parkour).
-The user experience is designed as follows:
+### The goal is an application for comparing movements executions of a movement or technique in a given sport or discipline (e.g. gym exercises or Parkour).
+
+### The user experience is designed as follows:
 
 1) Users wanting to get feedback about a move upload a video of themselves performing these movement. 
 2) The model takes the given input video and chooses another video of the same movement with good execution. There is a constraint on the videos of good execution: These videos contents are reduced to only the execution of the movement from start to end! (*) 
@@ -12,6 +13,6 @@ The user experience is designed as follows:
     
 As of now there is only a minimum viable product of this app running I made for my final project. Till now it only run on local host with streamlit. 
 
-Tools: 
+### Tools: 
   - MediaPipe: For pose estimation
   - OpenCV: For handling videos
